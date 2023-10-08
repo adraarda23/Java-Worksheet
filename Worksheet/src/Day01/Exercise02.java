@@ -25,6 +25,9 @@ public class Exercise02{
 		int sayi8 = sayi1 * sayi2 * sayi3;	
 		System.out.println(sayi7);
 		System.out.println(sayi8);
+		
+		System.out.println(Short.SIZE);
+		System.out.println(Integer.SIZE);
 	}
 }
 
