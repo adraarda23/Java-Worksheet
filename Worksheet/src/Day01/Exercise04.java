@@ -4,12 +4,16 @@ public class Exercise04 {
     public static void main(String[] args) {
         Car obj1 = new Car();
         Car obj2 = new Car();
+        Car obj3 = new Car();
         obj1.make = "test";
         obj2.make = "test2";
+        obj3.make ="test";
         
         int hashCode1 = System.identityHashCode(obj1.make);
         int hashCode2 = System.identityHashCode(obj2.make);
+        int hashCode5 = System.identityHashCode(obj3.make);
         
+        System.out.println("obj3.hashCode: " + hashCode5);
         System.out.println("obj1.hashCode: " + hashCode1);
         System.out.println("obj2.hashCode: " + hashCode2);
         
@@ -34,6 +38,7 @@ class Car {
 
 
 /*
-Note1:Object variable can share same adress but cant be changed by other Object variable adress change
+Note1: Object variable can share same adress but cant be changed by other Object variable adress change
+Note2: Variables which have same value hold values in the same address
 
   */
