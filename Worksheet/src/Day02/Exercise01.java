@@ -15,6 +15,8 @@ public class Exercise01{
 		System.out.println((float)(e+1));
 		System.out.println((f+1));
 		System.out.println((char)(f+1));
+		System.out.println(c);
+		System.out.println(b);
 		
 		
 		

@@ -34,8 +34,7 @@ public class Exercise01{
 /*
  Note1: Operator Precedences starts from left to compute but some precedence of operations have a priority
  Note2: In a theory string concat operations similar to javascript
- 
- 
+ Note3: i=i++ logically does nothing because first sets i equal to i then increase i's value but i declared as i before increase
  
  
   */
