@@ -4,6 +4,11 @@ public class Exercise02{
 		boolean[] test = {true,false};
 		for (boolean i : test)
 			System.out.println(i);
-			//i = 10;
+			//i = true;
 	}
 }
+
+
+/*
+ Note1: in for each loop i cant assign to a new value (Read-Only Mode)
+ */
