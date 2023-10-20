@@ -48,3 +48,5 @@ public class Quiz01{
 			System.out.println(i);
 }
 	}
+
+//Search Sieve of Eratosthenes instead of using a java.utils.ArrayList
