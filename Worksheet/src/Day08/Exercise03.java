@@ -19,6 +19,5 @@ public class Exercise03{
 		int n=tempList.length;
 		for(int i=0;i<n;i++)
 			System.out.println(tempList[i]);
-		
 	}
 }
