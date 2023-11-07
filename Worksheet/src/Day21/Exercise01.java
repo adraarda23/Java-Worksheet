@@ -3,7 +3,7 @@ import java.util.LinkedList;
 		//Wrapper
 public class Exercise01 {
 
-	public static void main(String[] args) {
+	public static void main(StringLearn[] args) {
 //		int i = 8;										//This kind of constructor calls are deprecated since Java 9
 //		Integer iObject = new Integer(i); // Boxing
 //		boolean b = true;
